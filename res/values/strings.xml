@@ -5,6 +5,7 @@
     <string name="action_settings">Settings</string>
     <string name="access_number">Access number:</string>
 	<string name="int_prefix">International Prefix:</string>
+	<string name="country_code">Country Code:</string>
 	<string name="btnSaveLbl">Save</string>
 	<string name="btnClearLbl">Clear</string>
 

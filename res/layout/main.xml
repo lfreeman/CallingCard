@@ -12,35 +12,16 @@
         android:id="@+id/textViewAccessNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/access_number" 
-        />
+        android:text="@string/access_number" />
 
     <EditText
         android:id="@+id/editTextAccessNumber"
-        android:inputType="phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textViewAccessNumber"
-        android:layout_below="@+id/textViewAccessNumber" >
-        <requestFocus />
-    </EditText>
+        android:layout_below="@+id/textViewAccessNumber"
+        android:inputType="phone" >
 
-    <TextView
-        android:id="@+id/textViewIntPrefix"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/int_prefix" 
-        android:layout_alignLeft="@+id/textViewAccessNumber"
-        android:layout_below="@+id/editTextAccessNumber" 
-        />
-
-    <EditText
-        android:id="@+id/editTextIntPrefix"
-        android:inputType="phone"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textViewIntPrefix"
-        android:layout_below="@+id/textViewIntPrefix" >
         <requestFocus />
     </EditText>
 
@@ -50,15 +31,16 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:text="@string/btnSaveLbl" 
-        android:onClick="handleSaveClick"/>
+        android:onClick="handleSaveClick"
+        android:text="@string/btnSaveLbl" />
 
     <Button
         android:id="@+id/clear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/save"
-        android:layout_alignRight="@+id/editTextIntPrefix"
-        android:text="@string/btnClearLbl"
-        android:onClick="handleClearClick" />
+        android:layout_alignRight="@+id/editTextAccessNumber"
+        android:onClick="handleClearClick"
+        android:text="@string/btnClearLbl" />
+
 </RelativeLayout>
