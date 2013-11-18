@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CallingCard</string>
+    <string name="action_settings">Settings</string>
+    <string name="access_number">Access number:</string>
+    <string name="cd_access_number">editTextAccessNumber</string>
+    <string name="int_prefix">International Prefix:</string>
+    <string name="country_code">Country Code:</string>
+    <string name="btnSaveLbl">Save</string>
+    <string name="btnClearLbl">Clear</string>
+    <string name="hello">Hello callingcard!</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

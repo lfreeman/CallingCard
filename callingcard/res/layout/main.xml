@@ -20,6 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textViewAccessNumber"
         android:layout_below="@+id/textViewAccessNumber"
+        android:contentDescription="@string/cd_access_number"
         android:inputType="phone" >
 
         <requestFocus />
